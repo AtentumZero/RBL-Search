@@ -1,12 +1,5 @@
 #!/bin/sh
 
-# rblsearch
-# A basic shell script to check if an IP address is listed on an IP and/or Domain based Blacklist
-# Example command: ./rblsearch.sh 192.168.0.2
-
-# IP-based Blacklists
-# Feel free to add to this list, a list of commonly used lists are available at mxtoolbox.com
-
 BLISTS="
     cbl.abuseat.org
     bl.spamcop.net
